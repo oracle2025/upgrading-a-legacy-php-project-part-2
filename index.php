@@ -7,7 +7,7 @@ define("TPL_CACHE_PATH", ROOT . "/tpl_cache/");
 
 $index_content = "";
 
-$index = new HTML_TEMPLATE_IT(TPL_PATH, TPL_CACHE_PATH);
+$index = new HTML_Template_IT(TPL_PATH, TPL_CACHE_PATH);
 $index->loadTemplateFile("index.tpl", TRUE, TRUE);
 $index->setVariable("app_name", "Example Application");
 $index->setVariable("content", $index_content);
