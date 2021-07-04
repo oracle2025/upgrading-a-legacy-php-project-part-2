@@ -4,6 +4,7 @@
     },
     "require": {
         "pear/html_template_it": "^1.3",
-        "silverorange/mdb2": "^3.1"
+        "silverorange/mdb2": "^3.1",
+        "bondas83/mdb2_driver_mysqli": "^1.5"
     }
 }
