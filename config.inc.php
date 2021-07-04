@@ -1,7 +1,7 @@
 <?php
 
 if (file_exists("secrets/db.inc.php")) {
-    require_once("secrets/db.inc.php")
+    require_once("secrets/db.inc.php");
 } else {
     define("DB_USER", getenv("DB_USER"));
     define("DB_PASS", getenv("DB_PASS"));
