@@ -13,7 +13,7 @@ define("APP_NAME",                           "Example Application");
 define("VERSION",                            "1.0");
 define("__DEBUG__",                          FALSE);
 define("__PCONNECT__",                       TRUE); // Persistent connection to the database
-define("DSN",                                DB_TYPE."://".DB_USR.":".DB_PASS."@".DB_HOST."/".DB_NAME);
+define("DSN",                                DB_TYPE."://".DB_USER.":".DB_PASS."@".DB_HOST."/".DB_NAME);
 
 define("ROOT",                               dirname(__FILE__));
 define("CLASSES_PATH",                       ROOT . "/classes/");

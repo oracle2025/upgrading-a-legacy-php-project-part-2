@@ -11,8 +11,8 @@ $datalink = dbconnect();
 function dbconnect() {
 	$dsn = DSN;
 
-	$connx =& DB::connect($dsn, __PCONNECT__);
-	if (DB::isError($connx)) {
+	$connx =& MDB2::connect($dsn, __PCONNECT__);
+	if (MDB2::isError($connx)) {
 	    // You would need to implement graceful error control here, of course.
 		die("Database connection failed: " . $connx->getUserInfo());
 		return FALSE;
