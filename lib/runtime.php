@@ -18,7 +18,7 @@ function dbconnect() {
 		return FALSE;
 	} else {
 	    // See the Pear::DB documentation for more options
-		$connx->setFetchMode(DB_FETCHMODE_ASSOC);
+		$connx->setFetchMode(MDB2::DB_FETCHMODE_ASSOC);
 		//$connx->query("SET CHARACTER SET 'utf8'");
 		$connx->query("SET NAMES utf8");
 		//$connx->query("SET character_set_client = 'utf8'");
