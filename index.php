@@ -1,9 +1,10 @@
 <?
 require __DIR__ . '/vendor/autoload.php';
 
-define("ROOT", dirname(__FILE__));
-define("TPL_PATH", ROOT . "/tpl/");
-define("TPL_CACHE_PATH", ROOT . "/tpl_cache/");
+include_once("config.inc.php");
+
+
+
 
 $index_content = "";
 
