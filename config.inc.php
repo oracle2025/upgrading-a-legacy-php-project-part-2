@@ -8,7 +8,7 @@ if (file_exists("secrets/db.inc.php")) {
     define("DB_NAME", getenv("DB_NAME"));
     define("DB_HOST", getenv("DB_HOST"));
 }
-define("DB_TYPE",                            "mysql");
+define("DB_TYPE",                            "mysqli");
 define("APP_NAME",                           "Example Application");
 define("VERSION",                            "1.0");
 define("__DEBUG__",                          FALSE);
